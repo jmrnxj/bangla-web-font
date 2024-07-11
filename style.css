@@ -1,0 +1,258 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://lineuisvg.netlify.app/lineuisvg.css");
+
+/* FlatIcon */
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+
+/* Font CSS */
+@import "./font/hind-siliguri.css";
+@import "./font/headline-bangla.css";
+
+body {
+  background-color: #212529 !important;
+}
+.logo {
+  width: 200px;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.info-box {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 100%;
+  color: #ffffff;
+  font-family: "Space Grotesk", "Hind Siliguri", sans-serif;
+}
+.avtar {
+  height: 50px;
+  width: 50px;
+}
+.avtar img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 2px solid #c60b0d;
+}
+.report {
+  background-color: #343a4094;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.report a {
+  display: flex;
+  align-items: center;
+}
+.report i {
+  color: #ffc000;
+  margin-right: 10px;
+}
+.view-report i {
+  color: #fefefe;
+}
+.view-count {
+  margin-top: -2px;
+}
+.info-box a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.font-tester {
+  height: 90px;
+  background-image: url(./images/font-tester-bg.svg);
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  padding: 0 30px;
+  border-radius: 15px;
+  font-family: "Space Grotesk", "Hind Siliguri", sans-serif;
+}
+.font-input {
+  width: 100%;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+.form-range::-moz-range-thumb {
+  background: linear-gradient(90deg, #c60b0d, #ff0f11) !important;
+}
+.font-box {
+  background-color: #343a40;
+  color: #ffffff;
+  position: relative;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 30px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: "Space Grotesk", "Hind Siliguri", sans-serif;
+}
+.font-box-content {
+  position: inherit;
+  z-index: 2;
+}
+.c-shape {
+  position: absolute;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background-color: #212529;
+  opacity: 0.3;
+  top: -50px;
+  left: -50px;
+  z-index: 1;
+}
+.font-box-utility {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.font-box-utility button {
+  border: none;
+}
+#preview {
+  height: 60px;
+}
+.cdn-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.alrt {
+  color: #4ad295;
+  font-size: 14px;
+}
+.cdn-section button {
+  background-color: transparent;
+  font-size: 26px;
+  border: none;
+}
+.lineui {
+  color: #4ad295;
+}
+.lineui:hover {
+  color: #ff0f11;
+}
+.card {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 10px 0 0 0 !important;
+}
+.link-cdn,
+.import-cdn {
+  background-color: #21252952;
+  padding: 15px;
+  border-radius: 10px;
+}
+.import-cdn {
+  margin: 15px 0 0 0;
+}
+.link-cdn input:focus,
+.import-cdn input:focus {
+  outline: none;
+}
+.link-cdn input,
+.import-cdn input {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  margin-right: 15px;
+}
+.link-cdn i,
+.import-cdn i {
+  color: #ffffff;
+  font-size: 24px;
+}
+.font-down-btn {
+  background-color: #c52127;
+  color: #ffffff;
+  padding: 8px 20px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  overflow: visible;
+}
+.font-down-btn span {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  background-color: #212529;
+  padding: 3px 10px;
+  font-size: 10px;
+  border-radius: 50px;
+}
+.btn-title {
+  position: unset;
+  z-index: 2;
+}
+.b-shape {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ff0f11;
+  right: 0;
+  bottom: -28px;
+  z-index: 1;
+}
+.font-down-btn {
+  text-decoration: none;
+}
+/* All Font Family */
+.anek-bangla {
+  font-family: "Anek Bangla";
+}
+.tiro-bangla {
+  font-family: "Tiro Bangla";
+}
+.apona-lohit {
+  font-family: "Apona Lohit";
+}
+.alinur-tatsama {
+  font-family: "Alinur Tatsama";
+}
+.alinur-borno-bikash {
+  font-family: "Alinur Borno Bikash";
+}
+.alinur-subas {
+  font-family: "Alinur Subas";
+}
+.lipishree {
+  font-family: "Lipishree";
+}
+.charukola {
+  font-family: "Charukola";
+}
+.shokuntola {
+  font-family: "Shokuntola";
+}
+.bornoporichay {
+  font-family: "Bornoporichay";
+}
+.bokul {
+  font-family: "Bokul";
+}
+.sutonnymj {
+  font-family: "Sutonny MJ";
+}
+.shurjo {
+  font-family: "Shurjo";
+}
+.srabondhara {
+  font-family: "Srabondhara";
+}
+.bonbonia-kajla {
+  font-family: "Bonbonia Kajla";
+}
