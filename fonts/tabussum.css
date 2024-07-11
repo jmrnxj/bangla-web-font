@@ -1,8 +1,8 @@
 /* Tabassum Font Face */
 @font-face {
-  font-family: "Shokuntola";
+  font-family: "Tabussum";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(../fonts/Shokuntola/shokuntola.woff) format("woff");
+  src: url(assets/tabussum.ttf) format("ttf");
 }
